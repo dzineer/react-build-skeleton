@@ -1,0 +1,47 @@
+
+$extends_spacing: 15;
+$spacing_start: 0;
+$end_spacing: 20;
+
+@for $i from $spacing_start through $end_spacing {
+  .mt-#{$i} {
+    margin-top: unquote($i+'px');
+  }
+  .mb-#{$i} {
+    margin-bottom: unquote($i+'px');
+  }
+  .ml-#{$i} {
+    margin-left: unquote($i+'px');
+  }
+  .mr-#{$i} {
+    margin-right: unquote($i+'px');
+  }
+  .my-#{$i} {
+    margin-top: unquote($i+'px');
+    margin-bottom: unquote($i+'px');
+  }
+  .mx-#{$i} {
+    margin-left: unquote($i+'px');
+    margin-right: unquote($i+'px');
+  }
+  .pt-#{$i} {
+    padding-top: unquote($i+'px');
+  }
+  .pb-#{$i} {
+    padding-bottom: unquote($i+'px');
+  }
+  .pl-#{$i} {
+    padding-left: unquote($i+'px');
+  }
+  .pr-#{$i} {
+    padding-right: unquote($i+'px');
+  }
+  .py-#{$i} {
+    padding-top: unquote($i+'px');
+    padding-bottom: unquote($i+'px');
+  }
+  .px-#{$i} {
+    padding-left: unquote($i+'px');
+    padding-right: unquote($i+'px');
+  }
+}
