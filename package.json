@@ -46,7 +46,7 @@
         "vue": "^2.6.10",
         "vue-loader": "^15.7.0",
         "webpack-hot-middleware": "^2.25.0",
-        "yarn": "^1.16.0",
+        "yarn": "^1.17.3",
         "zxcvbn": "^4.4.2"
     }
 }
